@@ -1,0 +1,84 @@
+/* 
+    StudentName:Zhihao Fu
+    StudentNumber: 9005152 
+*/
+body {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    font: medium Arial, sans-serif;
+    padding: 0 10px;
+}
+header, footer {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: lightblue;
+}
+body > header > h1{
+    text-align: center;
+    color: burlywood;
+}
+h1, h2 {
+    color: #000;
+    font-variant: small-caps;
+}
+/*缩小图片大小*/
+img {
+    width: 66%;
+    height: auto;
+}
+footer p {
+    font-size: medium;
+    color: burlywood;
+}
+main {
+    float: left;
+    width: 65%;
+    padding: 10px;
+    margin: 0px;
+}
+aside {
+    float: right;
+    width: 30%;
+    padding: 10px;
+    margin: 0px;
+    padding-bottom: 60em;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+.bordershorthand {
+    border: 2px solid #000;
+}
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+}
+q {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 1.2em;
+}
+ul li {
+    list-style-type: none;
+    line-height: 1.5em;
+}
+ul > li > a {
+    text-decoration: none;
+    color: #000;
+}
+aside a:hover {
+    color: #f00;
+}
+aside h2 {
+    color: burlywood;
+}
+footer {
+    clear: both;
+    text-align: center;
+}
+body > main > section > h2{
+    color: burlywood;
+}
